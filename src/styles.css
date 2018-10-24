@@ -27,16 +27,17 @@ body {
 }
 
 .navbar {
-  @apply .flex;
   @apply .bg-grey-darkest;
 }
 .nav-item {
   @apply .no-underline .text-grey-lightest;
-  @apply .mx-auto .p-4;
+  @apply .p-4;
   @apply .font-black;
 }
-.nav-item:hover {
-  @apply .bg-grey-darker;
+.nav-item:hover,
+.nav-item.is-active {
+  @apply .bg-black;
+  @apply .text-white;
 }
 
 @tailwind utilities;

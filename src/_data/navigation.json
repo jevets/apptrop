@@ -2,5 +2,6 @@
   { "label": "Home", "uri": "/" },
   { "label": "Tillandsias", "uri": "/tillandsias/" },
   { "label": "Specials", "uri": "/specials/" },
+  { "label": "Orchid Exchange", "uri": "/blooming-orchid-exchange/" },
   { "label": "Contact", "uri": "/contact/" }
 ]
