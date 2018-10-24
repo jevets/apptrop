@@ -4,6 +4,7 @@ module.exports = () => {
   return {
     copyrightDate,
 
-    title: 'Appalachian Tropicals'
+    title: 'Appalachian Tropicals',
+    tagline: 'Inspiring Epiphytic Designs',
   }
 }

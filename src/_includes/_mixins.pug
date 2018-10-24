@@ -2,6 +2,9 @@ mixin container()
   .container.mx-auto.px-4&attributes(attributes)
     block
 
+mixin divider()
+  hr.my-16.max-w-lg.mx-auto.border-t.border-grey-darkest&attributes(attributes)
+
 mixin pageTitle(title='')
   h1.leading-tight.font-black.text-4xl&attributes(attributes)= title
 

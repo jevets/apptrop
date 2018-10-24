@@ -1,7 +1,9 @@
 extends /layouts/main
 
 prepend body
-  .hero.bg-black.text-white.text-center.py-32
-    +container()
-      +pageTitle('Brighten up your home or office with our inspiring epiphytic designs.').leading-none
-      +lead('Hand-wrapped and prepared with love, our epiphytic designs are sure to brighten up your space with the natural beauty and dazzling colors of tillandsias and orchids.').my-4.leading-none
+  include /home/hero
+
+block main
+  include /home/epiphytes
+  +divider
+  include /home/where-to-buy

@@ -8,6 +8,24 @@ body {
   @apply .text-white;
 }
 
+.btn {
+  @apply .leading-loose;
+  @apply .text-center;
+  @apply .p-3;
+  @apply .rounded;
+  @apply .font-black .no-underline;
+}
+.btn-lg {
+  @apply .text-xl;
+  @apply .p-4;
+}
+.btn-primary {
+  @apply .bg-red .text-grey-lighter;
+}
+.btn-primary:hover {
+  @apply .bg-red-dark .text-white;
+}
+
 .navbar {
   @apply .flex;
   @apply .bg-grey-darkest;
