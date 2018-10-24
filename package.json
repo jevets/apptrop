@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "DEBUG=Eleventy* eleventy --serve",
+    "build": "eleventy && gulp"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.4",
+    "gulp": "^3.9.1"
+  }
+}
