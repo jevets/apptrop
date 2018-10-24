@@ -1,6 +1,6 @@
 section.section-epiphytes.py-8
   +container().text-left(class="md:text-center")
-    +pageHeader('What are Epiphytes?').my-12
+    +pageHeader(intro.title).my-12
   +container().my-4
     .flex.flex-wrap.items-center
       .mb-4.px-4(class="md:w-1/2 md:-mx-2")
@@ -11,7 +11,7 @@ section.section-epiphytes.py-8
           each p in intro.paragraphs
             p.my-4= p
       .mb-4.px-4(class="md:w-1/2 md:-mx-2")
-        img.max-w-full(
+        img.max-w-full.rounded-lg.shadow-lg(
           src="/img/habitat.jpg"
           alt="Air plant in natural habitat"
         )
