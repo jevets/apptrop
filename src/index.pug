@@ -2,8 +2,13 @@
 title: Inspiring Epiphytic Designs
 layout: /layouts/home.pug
 ---
+include /_mixins
+
 div: code hero
-include /layouts/_navbar
-div: code epiphytes
+
+section.section-epiphytes
+  +container()
+    +pageHeader('What are Epiphytes?')
+
 div: code retailers
 div: code about

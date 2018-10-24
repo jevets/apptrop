@@ -1,7 +1,12 @@
 ---
 title: Tillandsia Air Plants
+description: Hanging Air Plants
 layout: /layouts/main.pug
 ---
-div: code page-header
+include /_mixins
+
++container()
+  +pageHeader(title, description)
+
 div: code products-grid
 div: code footer

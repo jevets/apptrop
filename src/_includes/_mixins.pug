@@ -1,0 +1,21 @@
+mixin container()
+  .container.mx-auto.px-4&attributes(attributes)
+    block
+
+mixin pageTitle(title='')
+  h1.leading-tight.font-black.text-4xl&attributes(attributes)= title
+
+mixin lead(text='')
+  .text-xl.font-light&attributes(attributes)
+    if text
+      | #{ text }
+    else
+      block
+
+mixin pageHeader(title='', text='')
+  +container().my-4&attributes(attributes)
+    if title
+      +pageTitle(title)
+    if text
+      +lead(text)
+    block

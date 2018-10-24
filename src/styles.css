@@ -1,0 +1,24 @@
+@tailwind preflight;
+
+@tailwind components;
+
+body {
+  @apply .font-sans;
+  @apply .bg-black;
+  @apply .text-white;
+}
+
+.navbar {
+  @apply .flex;
+  @apply .bg-grey-darkest;
+}
+.nav-item {
+  @apply .no-underline .text-grey-lightest;
+  @apply .mx-auto .p-4;
+  @apply .font-black;
+}
+.nav-item:hover {
+  @apply .bg-grey-darker;
+}
+
+@tailwind utilities;

@@ -1,2 +1,6 @@
-div
-  code nav
+nav.navbar
+  each item in navigation
+    a.nav-item(
+      class=(item.uri === page.url ? 'is-active' : '')
+      href=item.uri
+    )= item.label

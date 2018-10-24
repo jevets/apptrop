@@ -1,0 +1,6 @@
+[
+  { "label": "Home", "uri": "/" },
+  { "label": "Tillandsias", "uri": "/tillandsias/" },
+  { "label": "Specials", "uri": "/specials/" },
+  { "label": "Contact", "uri": "/contact/" }
+]
