@@ -6,7 +6,18 @@ if firstVariant
 
   +divider()
   .my-4
-    table.w-full
+    each variant in (variants || [])
+      .flex.flex-wrap.flex-col.mb-4(
+        class="lg:flex-row lg:items-center"
+      )
+        div.my-2(class="lg:w-1/2 lg:my-4")
+          p.my-2.font-black.text-md= variant.label
+          p.my-2.text-sm.text-grey-dark= variant.description
+        .my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
+          p.font-black.text-lg $#{ variant.price }
+        div.my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
+          a.btn.btn-primary.w-full(href="#") Add to Cart
+    //- table.w-full
       tbody
         each variant in (variants || [])
           tr
