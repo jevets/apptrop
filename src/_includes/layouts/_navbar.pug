@@ -3,7 +3,13 @@ nav.navbar
   +container()
     .flex.flex-wrap
       each item in navigation
-        - var isActive = false
+        - let isActive = false
+        if page.url === item.uri || page.url.includes(item.uri)
+          - isActive = true
+        if item.uri === '/'
+          - isActive = false
+        if item.uri === '/' && page.url === '/'
+          - isActive = true
         a.nav-item.w-full(
           class=`md:w-auto ${isActive ? 'is-active' : ''}`
           href=item.uri
