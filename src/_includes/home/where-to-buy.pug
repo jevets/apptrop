@@ -1,16 +1,16 @@
 +container().py-8
   .text-center
     +pageTitle('Where to Buy').text-center
-    .my-16.leading-tight.bg-grey-darkest.p-8.rounded-full.shadow-lg
+    .my-16.leading-tight.bg-grey-darkest.p-8.rounded-full.shadow-lg.max-w-xl.mx-auto
       h3.mb-2.font-light.text-3xl
         | Our <a href="/blooming-orchid-exchange" class="text-white">Orchid Boutique</a> is Now Open!
       p.text-xl Featuring a large selection of blooming orchids and air plants, many of which are fragant.
-    p.my-8.font-bold.text-4xl Open #{ company.hours }
+    p.my-12.font-bold.text-3xl Open #{ company.hours }
   .my-16(class="md:flex md:flex-wrap md:items-center")
     .mb-4.px-4(class="md:w-3/5")
       .bg-grey-darkest.text-center.p-4.shadow-lg.rounded-lg
         p.my-4.text-3xl.font-black #{ company.phone }
-        p.my-4
+        p.my-6.text-xl.leading-tight
           | #{ company.address.street }
           br
           | #{ company.address.city }, #{ company.address.state } #{ company.address.zip }
@@ -22,7 +22,7 @@
         .leading-tight.mt-8
           p.my-4 Across the street from The Southcliff subdivision entrance.
           p.my-4 Next door to Silas Produce Stand.
-          p.my-4 <strong>Look for our flags!</strong>
+          p.my-4.text-xl <strong>Look for our flags!</strong>
     .mb-4.px-4(class="md:w-2/5")
       img.max-w-full.rounded-lg.shadow-lg(
         src="/img/orchid-boutique.jpg"

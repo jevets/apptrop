@@ -16,7 +16,6 @@ if firstVariant
         .my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
           p.font-black.text-lg $#{ variant.price }
         div.my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
-          - console.log(page)
           - const foxycartUrl = site.foxycartBuildProductUrl(variant, { title, image }, page)
           a.btn.btn-primary.w-full(href=foxycartUrl) Add to Cart
   .my-4.text-sm.text-grey-dark
