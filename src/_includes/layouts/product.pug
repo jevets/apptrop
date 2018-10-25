@@ -1,0 +1,14 @@
+extends /layouts/main
+
+block main
+  +container().py-6
+    .flex.flex-wrap.mb-8.items-center(class="md:-mx-4")
+      .mb-4(class="md:w-1/2 md:px-4")
+        img.max-w-full(src=image alt=title)
+      .mb-4(class="md:w-1/2 md:px-4")
+        +pageTitle(title).mb-4
+        +lead(description).my-8.text-2xl
+        include /layouts/_product/pricing
+    .my-8
+      h2.font-black.my-8.text-3xl More Images
+      include /layouts/_product/images

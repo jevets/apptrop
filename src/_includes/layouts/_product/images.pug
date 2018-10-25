@@ -1,0 +1,12 @@
+each variant in variants
+  .my-4
+    h3.font-black.text-grey
+      span.mr-2= variant.label
+      span.font-light.text-sm ##{ variant.id }
+  .my-4.flex.flex-wrap
+    each img in (variant.images || [])
+      a.mb-4(href=img)
+        img.h-32.mr-4(
+          src=img
+          alt=variant.label
+        )

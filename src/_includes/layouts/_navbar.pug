@@ -2,8 +2,11 @@ nav.navbar
   +container()
     .flex.flex-wrap
       each item in navigation
+        - var isHome = page.url === '/' && item.uri === '/'
+        - var isCurrent = item.uri === page.url
+        - var isActive = page.url.includes(item.uri)
         a.nav-item.w-full(
           class="md:w-auto"
-          class=(item.uri === page.url ? 'is-active' : '')
+          class=(isCurrent || isActive ? 'is-active' : '')
           href=item.uri
         )= item.label

@@ -1,0 +1,24 @@
+- var firstVariant = variants.length ? variants[0] : {}
+
+if firstVariant
+  p.font-black.text-5xl.text-green
+    | $#{ firstVariant.price + '' }
+
+  +divider()
+  .my-4
+    table.w-full
+      tbody
+        each variant in (variants || [])
+          tr
+            td.py-3(class="w-1/2")
+              p.my-2.font-black.text-md= variant.label
+              p.my-2.text-sm.text-grey-dark= variant.description
+            td.py-3(class="w-1/4")
+              p.font-black.text-lg
+                | $#{ variant.price }
+            td.py-3(class="w-1/4")
+              a.btn.btn-primary.w-full(href="#") Add to Cart
+  .my-4.text-sm.text-grey-dark
+    +divider()
+    p.my-4 Actual size will vary
+    p.my-4 Ships within 2-3 business days
