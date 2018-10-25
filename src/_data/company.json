@@ -3,8 +3,9 @@
   "phone": "828-222-2225",
   "email": "info@appalachiantropicals.com",
 
-  "gmap_url": "https://goo.gl/maps/o45qQ947NDy",
   "hours": "Tuesday - Saturday, 10am - 5pm",
+
+  "gmap_url": "https://goo.gl/maps/o45qQ947NDy",
   "address": {
     "street": "827 Charlotte Highway",
     "city": "Fairview",

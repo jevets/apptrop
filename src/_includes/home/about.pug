@@ -1,0 +1,13 @@
++container().py-6
+  +pageTitle(about.title).text-center
+  .my-16.flex.flex-col.items-center(class="md:flex-row")
+    .mb-4.px-4(class="md:w-3/5")
+      img.max-w-full(
+        src="/img/demelza-and-damon-kittles.jpg"
+      )
+    .mb-4.px-4(class="md:w-2/5")
+      h3.font-light.mb-6.text-2xl= about.heading
+      p.mb-4.leading-normal= about.text
+      .my-4.bg-grey-darkest.pl-6.py-2
+        p.my-4.leading-normal.text-lg.font-serif.italic= about.quote.text
+        p.my-4 &mdash; #{ about.quote.byline }
