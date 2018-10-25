@@ -1,4 +1,4 @@
 ---
 title: Blooming Orchid Exchange
-layout: layouts/main.pug
+layout: layouts/orchid-exchange.pug
 ---

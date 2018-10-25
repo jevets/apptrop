@@ -1,0 +1,32 @@
+extends /layouts/main
+
+block main
+  +container().py-8
+    .flex.flex-wrap.items-center
+      .mb-4(class="md:w-3/5 md:pr-4")
+        +pageTitle(title).mb-6.leading-tight
+        p.my-4.text-xl.leading-tight Do you love orchids but don't have the space or time to nurture a non-flowering plant back to blooming?
+        p.my-4.leading-normal Our Blooming Orchid Exchange program lets you keep a blooming orchid at all times.
+        p.my-4.leading-normal Simply bring back your Orchid in good condition to our greenhouse, and receive <strong>40% credit* toward your next purchase!</strong>
+
+      .mb-4(class="md:w-2/5")
+        img.max-w-full.shadow-lg.rounded-lg(
+          alt="Orchid"
+          src="/img/orchid-exchange.jpg"
+        )
+
+    .flex.flex-wrap.my-8(class="md:-mx-4")
+      .mb-4(class="md:w-1/2 md:px-4")
+        h2.font-black.my-8 How it Works
+        ul.leading-normal.pl-5
+          li Purchase an Orchid at our Orchid Boutique.
+          li Keep your receipt. You will need it to participate.
+          li Bring back your bloomed-out orchid, along with the receipt, within six months of the purchase date.
+          li * We will give you a credit of 40% of the returned plant's original purchase price, to be used toward the purchase of your next blooming orchid or other plants and merchandise.
+      .mb-4(class="md:w-1/2 md:px-4")
+        h2.font-black.my-8 Other Notes
+        ol.leading-normal.pl-5
+          li Returned plant must be in good condition.
+          li We only accept orchids that were originally purchased from Appalachian Tropicals.
+          li Return your orchid within six months of the original purchase date.
+          li Credit may be used for plants and merchandise other than orchids.
