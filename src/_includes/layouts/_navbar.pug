@@ -1,8 +1,9 @@
 nav.navbar
   +container()
-    .flex
+    .flex.flex-wrap
       each item in navigation
-        a.nav-item(
+        a.nav-item.w-full(
+          class="md:w-auto"
           class=(item.uri === page.url ? 'is-active' : '')
           href=item.uri
         )= item.label
