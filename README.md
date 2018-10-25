@@ -4,8 +4,8 @@ Static site using 11ty.io and TailwindCSS
 
 ## ToDo
 
-- [-] Finish home page content
+- [ ] Home: Retailers Map
 - [ ] Image resizes
 - [ ] Image optimization
-- [x] Foxy mini cart integrated
 - [ ] Responsive navigation menu / collapse
+- [ ] Lightbox / modal on images
