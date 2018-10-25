@@ -2,6 +2,7 @@
 title: Double Suspended Airplant
 description: Two top-quality Tillandsia airplants, as close to blooming as possible, suspended by a decorative spiraling wire.
 image: /files/products/7333/T.hirasii.double.jpg
+weight: 50
 variants:
   - label: Small
     id: 7333

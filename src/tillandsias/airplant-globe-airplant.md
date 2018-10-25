@@ -2,6 +2,7 @@
 title: Airplant in Round Glass Globe with Dangling Airplant
 description: Two top-quality Tillandsia airplants, one showcased in a round glass globe, suspended by a decorative spiraling wire, with one airplant dangling below the globe.
 image: /files/products/7573/T.%20funckiana%20_%20T.%20bulboa%20Belize%20large%20globe%20w_plant%20below.jpeg
+weight: 200
 variants:
   - label: Small
     id: 7563

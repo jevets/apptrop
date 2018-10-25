@@ -4,10 +4,10 @@ if firstVariant
   p.font-black.text-5xl.text-green
     | $#{ firstVariant.price + '' }
 
-  +divider()
+  +divider('my-6')
   .my-4
     each variant in (variants || [])
-      .flex.flex-wrap.flex-col.mb-4(
+      .flex.flex-wrap.flex-col(
         class="lg:flex-row lg:items-center"
       )
         div.my-2(class="lg:w-1/2 lg:my-4")
@@ -16,20 +16,10 @@ if firstVariant
         .my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
           p.font-black.text-lg $#{ variant.price }
         div.my-2(class="md:w-1/2 lg:w-1/4 lg:my-4")
-          a.btn.btn-primary.w-full(href="#") Add to Cart
-    //- table.w-full
-      tbody
-        each variant in (variants || [])
-          tr
-            td.py-3(class="w-1/2")
-              p.my-2.font-black.text-md= variant.label
-              p.my-2.text-sm.text-grey-dark= variant.description
-            td.py-3(class="w-1/4")
-              p.font-black.text-lg
-                | $#{ variant.price }
-            td.py-3(class="w-1/4")
-              a.btn.btn-primary.w-full(href="#") Add to Cart
+          - console.log(page)
+          - const foxycartUrl = site.foxycartBuildProductUrl(variant, { title, image }, page)
+          a.btn.btn-primary.w-full(href=foxycartUrl) Add to Cart
   .my-4.text-sm.text-grey-dark
-    +divider()
+    +divider('my-6')
     p.my-4 Actual size will vary
     p.my-4 Ships within 2-3 business days

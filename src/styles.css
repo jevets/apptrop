@@ -15,7 +15,7 @@ a {
   @apply .inline-flex .justify-center;
   @apply .leading-loose;
   @apply .text-center;
-  @apply .py-2 .px-3;
+  @apply .py-1 .px-2;
   @apply .rounded;
   @apply .font-black .no-underline;
 }

@@ -2,6 +2,7 @@
 title: Single Suspended Airplant
 description: A top-quality Tillandsia airplant, as close to blooming as possible, suspended by a decorative spiraling wire.
 image: /files/products/7683/T.strepto.single.jpg
+weight: 0
 variants:
   - label: Small
     id: 7243

@@ -2,6 +2,7 @@
 title: Tillandsia Airplant in Snail Shell
 description: A top-quality Tillandsia airplants, as close to blooming as possible, displayed in an environmentally-friendly harvested snail shell, suspended by a decorative spiraling wire.
 image: /files/products/7433/T.tenuifolia.shell.jpg
+weight: 400
 variants:
   - label: 7433
     id: 7433

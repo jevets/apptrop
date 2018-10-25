@@ -2,6 +2,7 @@
 title: Airplant in Round Glass Globe
 description: A top-quality Tillandsia airplant showcased in round glass globe, suspended by a decorative spiraling wire.
 image: /files/products/7393/T.%20brachycaulos%20hybrid%20large%20globe.jpeg
+weight: 150
 variants:
   - label: Small
     id: 7583

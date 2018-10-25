@@ -2,6 +2,7 @@
 title: Airplant in Large Teardrop Glass Globe
 description: A top-quality Tillandsia airplant showcased in a 3.5 inch diameter teardrop-shaped glass globe, suspended by a decorative spiraling wire.
 image: /files/products/7493/T.%20funckiana%20teardrop%20globe.jpeg
+weight: 300
 variants:
   - label: 7493
     id: 7493
