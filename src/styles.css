@@ -7,6 +7,9 @@ body {
   @apply .bg-black;
   @apply .text-white;
 }
+a {
+  @apply .text-green-light;
+}
 
 .btn {
   @apply .leading-loose;

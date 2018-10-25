@@ -1,0 +1,24 @@
+{
+  "name": "Appalachian Tropicals",
+  "phone": "828-222-2225",
+  "email": "info@appalachiantropicals.com",
+
+  "gmap_url": "https://goo.gl/maps/o45qQ947NDy",
+  "hours": "Tuesday - Saturday, 10am - 5pm",
+  "address": {
+    "street": "827 Charlotte Highway",
+    "city": "Fairview",
+    "state": "NC",
+    "zip": "28730",
+    "notes": [
+      "Across the street from The Southcliff subdivision entrance.",
+      "Next door to Silas Produce Stand.",
+      "Look for our flags!"
+    ]
+  },
+
+  "social_urls": {
+    "twitter": "https://twitter.com/AppTropicals",
+    "facebook": "https://www.facebook.com/AppalachianTropicals/"
+  }
+}
