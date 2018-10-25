@@ -16,12 +16,12 @@ a {
   @apply .leading-loose;
   @apply .text-center;
   @apply .py-1 .px-2;
-  @apply .rounded;
+  @apply .rounded-lg;
   @apply .font-black .no-underline;
 }
 .btn-lg {
   @apply .text-xl;
-  @apply .p-4;
+  @apply .px-4 .py-3;
 }
 .btn-primary {
   @apply .bg-red .text-grey-lighter;
