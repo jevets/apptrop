@@ -10,6 +10,9 @@ intro:
   paragraphs:
     - Epiphtyes grow on other, sturdier plants like trees. They're not parasites; they don't drain their hosts of water, energy, or nutrients, but they do take advantage of the easier access to sunlight. They only use their hosts for physical support, though in some cases their hosts will use the water and nutrients stored in epiphytes. Epiphytes give back.
     - Epiphytes are amazingly diverse with many shapes, sizes, and colors. We specialize in Orchids and Tillandsias.
+retailers:
+  title: Buy in Stores
+  text: Find our designs in Whole Foods Markets and other retail boutiques across the southeast U.S.
 about:
   title: About Us
   heading: A Family Business

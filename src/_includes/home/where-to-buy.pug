@@ -1,5 +1,7 @@
-+container().py-8
++container().my-32
   .text-center
+    .block.my-1
+      i.fa.fa-leaf.fa-3x
     +pageTitle('Where to Buy').text-center
     .my-16.leading-tight.bg-grey-darkest.p-8.rounded-full.shadow-lg.max-w-xl.mx-auto
       h3.mb-2.font-light.text-3xl
@@ -28,3 +30,25 @@
         src="/img/orchid-boutique.jpg"
         alt="Orchid Boutique"
       )
+
++container().my-32.text-center
+  .block.my-1
+    i.fa.fa-shopping-cart.fa-3x
+  +pageTitle('Buy Online').my-8
+  +lead().text-2xl
+    | Our online store is Now Open!
+  .my-8.text-center
+    a.btn.btn-primary.btn-lg(
+      href="/tillandsias/"
+    ) Browse Air Plants
+
++container().my-32.text-center
+  .block.my-1
+    i.fa.fa-globe.fa-3x
+  +pageTitle(retailers.title).my-8
+  +lead().my-8.text-2xl= retailers.text
+  .mx-auto.my-4
+    iframe.mx-auto(
+      class="w-full h-64 md:h-128"
+      src=company.gmap_retailers_embed_url
+    )

@@ -6,6 +6,9 @@
   "hours": "Tuesday - Saturday, 10am - 5pm",
 
   "gmap_url": "https://goo.gl/maps/o45qQ947NDy",
+  "gmap_retailers_url": "https://www.google.com/maps/d/u/0/edit?mid=15PNUgOMbX-oQt2tUdm8vSNhRD4_9BBbu&hl=en&ll=34.95383441349255%2C-81.60741174999998&z=8",
+  "gmap_retailers_embed_url": "https://www.google.com/maps/d/u/0/embed?mid=15PNUgOMbX-oQt2tUdm8vSNhRD4_9BBbu",
+
   "address": {
     "street": "827 Charlotte Highway",
     "city": "Fairview",
